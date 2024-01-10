@@ -1,0 +1,110 @@
+:root {
+    --Main-Color: #2b2b22; /*Primary html background color*/
+    --primary-Color: #303030; /*Primary HeaderContentDiv Color, Primary Input-Box Color*/
+    --second-Color: #ffffff; /*Primary divider line Color, Primary Font Text Color*/
+    --third-Color: #40b021; /*Primary Button Color*/
+    --fourth-Color:  #3de010; /*Second Button Color*/
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background: var(--Main-Color);
+}
+
+.HeaderContentDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 1rem;
+    background: var(--primary-Color);
+    border: 0.5rem solid transparent;
+    border-radius: 5rem;
+    padding: 1rem;
+}
+
+.BodyContentDiv {
+    padding: 1rem;
+}
+
+.Font {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--second-Color);
+}
+
+.Title {
+    letter-spacing: 0.025rem;
+    border: 0rem solid transparent;
+    transition: 0.5s linear;
+}
+
+.Title:hover {
+    letter-spacing: 0.05rem;
+}
+
+.Divider-Line {
+    color: transparent;
+    background: var(--second-Color);
+    border: 0rem solid transparent;
+    letter-spacing: 0.1rem;
+    transition: 0.5s linear;
+    padding: 0.025rem;
+    height: 0.1rem;
+    border-radius: 0.1rem;
+}
+
+.Label {
+    background: transparent;
+    letter-spacing: 0.1em;
+    border: 0rem solid transparent;
+    width: 15rem;
+    transition: 0.5s linear;
+}
+
+.Label:hover {
+    letter-spacing: 0.15em;
+}
+
+.Input-Box {
+    background-color: var(--primary-Color);
+    border: 0.2rem solid transparent;
+    border-radius: 0.5rem;
+    letter-spacing: 0.1em;
+    height: 1rem;
+    transition: 0.5s linear;
+}
+
+.Input-Box:hover {
+    box-shadow: 0 0 2rem var(--second-Color);
+    letter-spacing: 0.25em;
+}
+
+.Small-Input {
+    width: 1rem;
+    color: var(--second-Color);
+    background-color: var(--primary-Color);
+    border: 0rem solid transparent;
+    border-radius: 0.3rem;
+    transition: 0.5s linear;
+}
+
+.Small-Input:hover {
+    box-shadow: 0 0 2rem var(--second-Color);
+}
+
+.button {
+    background-color: var(--third-Color);
+    border: 0.2rem solid transparent;
+    border-radius: 0.5rem;
+    letter-spacing: 0.1em;
+    transition: 0.5s linear;
+}
+
+.button:hover {
+    background-color: var(--fourth-Color);
+    letter-spacing: 0.15em;
+    box-shadow: 0 0 2rem var(--fourth-Color);
+}

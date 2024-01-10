@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <header>
+            <div class="HeaderContentDiv">
+                <h1 class="Font Title">Password Generation</h1>
+            </div>
+        </header>
+        
+        <link rel="stylesheet" href="Index.css">
+    </head>
+    <body>
+        <center>
+            <div class="BodyContentDiv">
+                <p class="Label Font">Copy Your Password</p>
+                <div class="Divider-Line" > <br>
+                <div class="Input-Box Font" id="Input-Generation"></div> <br>
+                <div class="Divider-Line" > 
+                <p class="Label Font">Generate Your Password</p>
+                <div class="Divider-Line" > <br>
+                <button class="button Font" id="GeneratePass" onclick="GeneratePassword()">
+                    Generate <input class="Small-Input Font" id="Len-Amount-Input" value="1" maxlength="2">
+                </button> <br><br>
+                <button class="button Font" id="CopyPass" onclick="CopyPassword()">Copy Password</button> <br><br>
+                
+                <div class="Divider-Line" >
+                <p class="Label Font">Password Generation</p> 
+            </div>
+        </center>
+
+        <script src="Index.js"></script>
+    </body>
+</html>
